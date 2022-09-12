@@ -1,0 +1,180 @@
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Kanit', sans-serif;
+
+  background-color: #03031E;
+  background-image: url(../public/images/bgImage2.png);
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-tap-highlight-color:transparent;
+
+}
+
+/* poppins-regular - latin */
+
+* {
+  box-sizing: border-box;
+}
+
+.dropdownNav:hover .chevronDown {
+  transform: rotate(180deg);
+  transition: ease-in-out 0.3s ;
+}
+
+
+.chevronDown {
+  display: inline;
+  transition: ease 0.3s;
+}
+/* 
+.dropdownNav:hover .chevronUp {
+  display: inline;
+} */
+
+.chevronUp {
+  display: none;
+}
+
+.dropdownNav:hover .companyDropdown  {
+  display: grid;
+}
+
+.companyDropdown { 
+  display: none;
+}
+.subMenu {
+  transition: ease-in-out 0.3s ;
+  -webkit-tap-highlight-color:transparent
+}
+.navGrid{
+  box-shadow: 10px 10px  rgb(37 99 235);
+  transition: ease-in-out 0.5s;
+}
+.navGrid:hover {
+  box-shadow: none;
+}
+
+
+.navGrid:hover .techIcon{
+  color: rgb(249 168 212);
+}
+
+.hoverShadow:hover {
+  box-shadow: 20px 20px  rgb(37 99 235);
+  transition: ease-in-out 0.5s;
+}
+.bg-hero-pattern {
+  background-image: url(../public/images/Website\ designer-amico.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.blue-image{
+  background-image: url(../public/images/blue-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-banner1 {
+  background-image: url(../public/images/banner1.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.bg-texture {
+  background-image: url(../public/images/texture.png);
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: center;
+  
+}
+.heroTxt {
+  font-family: 'Comfortaa', cursive;
+}
+
+.blue-shadow {
+  box-shadow: 20px 20px  #2463eb;
+  transition: ease-in-out 0.5s;
+}
+.blue-shadow:hover {
+  box-shadow: none;
+}
+
+.orange-shadow {
+  box-shadow: 10px 10px  #ffffff;
+  transition: ease-in-out 0.5s;
+}
+.orange-shadow:hover {
+  box-shadow: none;
+}
+
+
+.caseLine{
+  transition: ease-in-out 0.3s ;
+}
+.caseText:hover .caseLine {
+  transition: ease-in-out 0.3s ;
+  width: 100%;
+
+}
+.tooltip {
+  visibility: hidden;
+}
+
+.tooltipCont:hover .tooltip {
+  visibility: visible;
+  
+}
+
+.gridService:hover {
+  transform: translateY(-20px);
+}
+.gridService{
+  transition: all .3s ease-in-out 0s;
+}
+
+.bg-auth {
+  background-image: url(../public/images/login.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.will-change {
+  will-change: transform;
+  transform: translateX(0)
+  
+}
+.bg-slider {
+  background-image: url(../public/images/bg-slider.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 70vh;
+  background-position: center;
+}
+
+.bg-slider3 {
+  background-image: url(../public/images/bg-slider4.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.circle1 {
+  background-image: url(../public/images/circle1.png);
+}

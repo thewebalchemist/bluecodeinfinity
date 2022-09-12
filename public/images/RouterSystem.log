@@ -1,0 +1,23 @@
+#This file shows the router's system log.
+001  1970-01-01 00:00:00             main System start
+002  1970-01-01 00:00:01             main sntp start
+003  1970-01-01 00:00:01             main DHCPD start!
+004  1970-01-01 00:00:04 Network alarm support wan up!
+005  1970-01-01 00:00:04           pppoe0 pppoe_init(ppp0)
+006  1970-01-01 00:00:04           pppoe0 pppoe_fsm_up(ppp0)
+007  1970-01-01 00:00:05           pppoe0 ppp0 send PADI
+008  1970-01-01 00:00:05           pppoe0 ppp0 receives PADO
+009  1970-01-01 00:00:05           pppoe0 Send PADR, Enter PPPOE_SREQ
+010  1970-01-01 00:00:05           pppoe0 ppp0 send PADR
+011  1970-01-01 00:00:05           pppoe0 ppp0 receive PADS
+012  1970-01-01 00:00:05           pppoe0 Enter PPPOE_CONNECTED, session_id = 13056
+013  1970-01-01 00:00:05           pppoe0 pppoe_osl_ppp_open(ppp0): open successfully.
+014  1970-01-01 00:00:05            pppd0 start lcp stage
+015  1970-01-01 00:00:06            pppd0 local  IP address 10.100.254.144
+016  1970-01-01 00:00:06            pppd0 remote IP address 10.64.64.64
+017  1970-01-01 00:00:06            pppd0 primary   DNS address 10.64.64.64
+018  1970-01-01 00:00:06            pppd0 secondary DNS address 8.8.8.8
+019  2022-02-14 08:55:39             SNTP update time success
+020  2022-02-14 08:55:39             SNTP update time success
+021  2022-02-14 08:55:39             SNTP update time success
+022  2022-02-14 08:55:39             SNTP update time success
