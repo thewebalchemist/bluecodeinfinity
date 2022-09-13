@@ -5,15 +5,16 @@ const DevelopmentApproach = () => {
 
         <div className="bg-black flex flex-col py-10 px-5 md:py-20 md:px-20 space-y-10">
             <div className="flex">
-                <h2 className="text-white font-bold tracking-widest text-md md:text-7xl capitalize">
+                <h2 className="text-white font-bold tracking-widest text-2xl md:text-7xl capitalize">
                     Our Development Approach
                 </h2>
             </div>
-            <div className=' grid grid-cols-2 gap-10'>
+            <div className=' grid lg:grid-cols-2 gap-10'>
             <div className='grid col-span-1'>            
             <div className="grid md:grid-cols-2 gap-10">
-
-                <div className="grid flex flex-col justify-start items-center space-y-3 border border-gray-700 p-4 rounded-2xl ">
+                
+            <div className="grid">
+                <div className="flex flex-col justify-start items-start space-y-3 border border-gray-700 p-4">
                     <h2 className="text-white uppercase font-semibold text-sm tracking-widest leading-6">
                         deadline <br/> compliance
                     </h2>
@@ -22,8 +23,10 @@ const DevelopmentApproach = () => {
                     Quickly react to new market changes and demands with relevant software thanks to our custom framework
                     </p>
                 </div>
-
-                <div className="grid flex flex-col justify-start items-center space-y-3 border border-gray-700 p-4 rounded-2xl">
+                </div>
+                
+                <div className="grid">
+                <div className="flex flex-col justify-start items-start space-y-3 border border-gray-700 p-4">
                     <h2 className="text-white uppercase font-semibold text-sm tracking-widest leading-6">
                     Delivery  <br/> optimization
                     </h2>
@@ -33,8 +36,9 @@ const DevelopmentApproach = () => {
                     </p>
 
                 </div>
-
-                <div className="grid flex flex-col justify-start items-center space-y-3 border border-gray-700 p-4 rounded-2xl">
+                </div>
+                <div className="grid">
+                <div className="flex flex-col justify-start items-start space-y-3 border border-gray-700 p-4">
                     <h2 className="text-white uppercase font-semibold text-sm tracking-widest leading-6">
                     Staff <br/> retention
                     </h2>
@@ -44,8 +48,10 @@ const DevelopmentApproach = () => {
                     </p>
 
                 </div>
+                </div>
 
-                <div className="grid flex flex-col justify-start items-center space-y-3 border border-gray-700 p-4 rounded-2xl">
+                <div className="grid">
+                <div className="flex-col justify-start items-start space-y-3 border border-gray-700 p-4">
                     <h2 className="text-white uppercase font-semibold text-sm tracking-widest leading-6">
                     Customer  <br/> success management
                     </h2>
@@ -54,13 +60,14 @@ const DevelopmentApproach = () => {
                     Make sure that your feedback is properly translated to our development team with a customer success manager
                     </p>
 
+                    </div>
                 </div>
             </div>
             <div className='flex py-10'>
                 <Link href="/about">
                 <a>
-                <button className='capitalize text-sm md:text-md tracking-wide rounded-md hover:text-white border border-blue-600 p-3 md:py-3 md:px-6 hover:border-pink-300 text-pink-300'>
-                    How do we approach your projects?
+                <button className='flex  border border-blue-600 hover:text-blue-600 hover:border-white items-center py-3 px-8 text-white lg:text-xl hover:bg-gradient-to-l md:font-semibold'>
+                How we approach projects
                 </button>
                 </a>
                 </Link>
@@ -71,7 +78,7 @@ const DevelopmentApproach = () => {
                 src="/images/black-image.svg"
                 alt=""
                 width= {500} height= {500}
-                layout='responsive'
+                layout='intrinsic'
                 objectFit=""
             ></Image>
             </div>

@@ -31,17 +31,22 @@ const Navbar = () => {
 
             {/* on smaller devices */}
             <div className='lg:hidden relative'>
-            <div className='flex justify-between items-center px-3 w-full h-20 bg-gray-800/90 mx-0 fixed top-0 z-40'>
+            <div className='flex justify-between items-center px-1 w-full h-20 bg-gray-800/90 mx-0 fixed top-0 z-40'>
             <div className='subMenu'>
                 
-                    <h1>
+                <div className='flex justify-start items-center'>
                     <Link href="/">
                         <a href="">
-                        <span className='tracking-wider text-indigo-700  font-bold text-3xl h-32'>Blue</span>
-                        <span className='underline tracking-wider underline-offset-2 decoration-sky-500 text-white font-thin text-3xl h-32'>code</span>
+                        <Image  className="transition duration:300 hover:scale-110 hover:transition hover:duration-300"
+                            alt="blue code infinity logo"
+                            src = "/images/bluecodelogo.svg"
+                            width={200} height= {100}
+                            layout=""
+                            objectFit=""
+                        />
                         </a>
                     </Link>
-                    </h1>
+                </div>
                     
                 </div>
                 <div className='flex items-center subMenu'>
@@ -134,20 +139,8 @@ const Navbar = () => {
                             </div>
                         </li>
                         <li>
-                    <Link href="/blog"><a>
-                        <button className='text-white w-full border border-indigo-700 rounded bg-indigo-700 py-3 hover:bg-transparent hover:border-white'>Our Blog
-                    </button>
-                    </a></Link>
-                        </li>
-                        <li>                           
-                    <Link href="/casestudies"><a>
-                        <button className='text-white w-full border border-indigo-700 rounded bg-indigo-700 py-3 hover:bg-transparent hover:border-white'>Projects 
-                    </button>
-                    </a></Link>
-                        </li>
-                        <li>
                         <button className='text-white w-full border border-indigo-700 rounded bg-indigo-700 py-3 hover:bg-transparent hover:border-white'>
-                    <Link href="/contact-us"><a>Start A Project</a></Link>
+                    <Link href="/contact-us"><a>Get Project Estimate</a></Link>
                     </button>
                         </li>
                     </ul>
@@ -467,7 +460,7 @@ const Navbar = () => {
                 <div className='flex justify-between space-x-6 items-center'>
                 <Link href="/contact-us"><a>
                     <span className='text-white border border-indigo-700 rounded bg-indigo-700 py-2 px-6  hover:bg-transparent hover:border-pink-300'>
-                    Start A Project
+                    Get Project Estimate
                     </span>
                     </a></Link>
                 </div>

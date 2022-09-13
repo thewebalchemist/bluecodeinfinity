@@ -4,14 +4,39 @@ import Image from 'next/image'
 
 const ImageGallery = () => {
     return (
-        <div className='p-2 md:px-0 py-28'>
-            <div className=" py-10 flex flex-col ">
-                <h2 className='text-white text-center font-bold tracking-widest text-lg md:text-7xl'>
-                Recent Design Projects
+        <div className='p-2 py-10 lg:py-28'>
+            <div className="py-5 md:py-20 lg:px-10 grid md:grid-cols-4 gap-0 ">
+            <div className="lg:grid justify-center hidden">
+            <Image 
+                className='' 
+                src="/images/projects.png"
+                alt=""
+                width={100}
+                height={100}
+                layout='intrinsic'
+                objectFit='cover'
+                />
+            </div>
+            <div className="col-span-2">
+            <h2 className='text-white text-center font-bold tracking-widest text-4xl md:text-7xl'>
+                Recent Projects
                 </h2>
             </div>
+                
+            <div className="lg:grid hidden justify-center ">
+            <Image 
+                className='' 
+                src="/images/projects1.png"
+                alt=""
+                width={100}
+                height={100}
+                layout='intrinsic'
+                objectFit='cover'
+                />
+            </div>
+            </div>
 
-            <div className='grid grid-cols-2 gap-5 py-5 px-20'>
+            <div className='grid lg:grid-cols-2 gap-5 py-5 lg:px-20'>
                 <div className=''>
                                         <Image 
                                         className='' 

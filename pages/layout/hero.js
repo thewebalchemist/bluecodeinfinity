@@ -7,8 +7,8 @@ const Hero = () => {
         <div className="md:m md:p-14">
 
         {/* hero */}
-        <div className="grid grid-cols-3 gap-2 p-10">
-            <div className="grid col-span-2 space-y-10"> 
+        <div className="grid lg:grid-cols-3 gap-10 lg:gap-2 p-5 lg:p-10">
+            <div className="grid lg:col-span-2 space-y-10"> 
                 <div className='text-gray-200 space-y-10'>
                     <h3 className='font-bold text-white text-5xl md:text-7xl'>
                     If You Can Imagine It, We Will <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-400'>Design</span> and <span className='text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-orange-400'>Develop</span> It

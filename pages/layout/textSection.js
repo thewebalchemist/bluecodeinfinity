@@ -5,23 +5,56 @@ const TextSection = () => {
     return (
         <section className='py-10'>
             {/* ratings */}
-        <div className='bg-black p-10 w-full'>
+        <div className='bg-black py-2 grid grid-cols-3 gap-10'>
+            <div className="flex justify-center items-center">
+            <Image 
+                className='' 
+                src="/images/crunchbase.png"
+                alt=""
+                width={200}
+                height={100}
+                layout='intrinsic'
+                objectFit='cover'
+                />
+            </div>
+            <div className="flex justify-center items-center">
+            <Image 
+                className='' 
+                src="/images/trustpilot.png"
+                alt=""
+                width={200}
+                height={100}
+                layout='intrinsic'
+                objectFit='cover'
+                />
+            </div>
+            <div className="flex justify-center items-center">
+            <Image 
+                className='' 
+                src="/images/google.png"
+                alt=""
+                width={200}
+                height={100}
+                layout='intrinsic'
+                objectFit='cover'
+                />
+            </div>
         </div>
         <div className='bgImage flex justify-center items-center text-center py-20 px-2 lg:px-40'>
             <div className='flex flex-col justify-center'>
                 <div>
-                <h2 className='text-white font-thin text-sm md:text-8xl '>
+                <h2 className='text-white font-thin text-5xl md:text-8xl '>
                 We Design. We Build. We Improve.
                 </h2> 
                 </div>
                 <div className=''>
-                <p className='text-white text-sm tracking-wider leading-9'>
+                <p className='text-white text-sm tracking-wider leading-7 md:leading-9'>
                 We believe, our clients deserve to be remarkable in their business. The studio develops the products people appreciate all around the world.
                 </p>
             </div>              
             </div>
         </div>
-        <div className='grid grid-cols-2 gap-10 p-10 '>
+        <div className='grid lg:grid-cols-2 gap-10 p-2 md:p-10 '>
             {/* For You */}
             <div className='grid items-center'>
                 <h3 className='text-white text-3xl py-3 text-center'>

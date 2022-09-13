@@ -7,7 +7,7 @@ const Services = () => {
         <div>
         <div className="px-5 md:px-20 py-12">
             <div className="py-12  flex flex-col justify-center items-center ">
-                <h2 className="text-white text-center font-bold tracking-widest text-lg md:text-7xl">
+                <h2 className="text-white text-center font-bold tracking-widest text-2xl md:text-7xl">
                     Softwares, Websites, Logos & more
                 </h2>
             </div>
@@ -122,25 +122,25 @@ const Services = () => {
             </div>
         </div>
         {/* Add on */}
-        <div className="bg-texture bg-black flex flex-col justify-center items-center py-10">
-            <div className="grid grid-cols-4 gap-2">
+        <div className="bg-texture bg-black flex flex-row lg:flex-col justify-center items-center py-10">
+            <div className="grid lg:grid-cols-4 gap-2">
                 <div>
-                <img className="" 
+                <img className="hidden lg:flex" 
                             src="https://media4.giphy.com/media/RkX2zcpO79EAf82ESl/giphy.gif"
                             alt=""
-                            width= {550} height= {500}
+                            width= {300} height= {300}
                             layout='intrinsic'
                             objectFit="cover"
                         />
                 </div>
-                <div className="grid col-span-2">
+                <div className="grid lg:col-span-2">
                     <div className="flex flex-col justify-center items-center py-10">
                     <button className='hover:bg-indigo-900 bg-orange-500 text-white tracking-widest py-2 px-4 rounded-full'>
                     Add Ons
                     </button>                    
                     
                     <div className='flex flex-col justify-center items-center space-y-2 p-5'>
-                    <h2 className='text-white text-center text-lg lg:text-3xl font-bold tracking-wider leading-tight '>
+                    <h2 className='text-white text-center text-2xl lg:text-3xl font-bold tracking-wider leading-tight '>
                     SEO Optimization & Article Writing
                     </h2>
                     <h3 className='text-white text-center text-xs leading-loose md:px-16 font-medium md:text-sm'>
@@ -149,11 +149,11 @@ const Services = () => {
                     </div>
                     </div>
             </div>
-                <div>
+                <div className="">
                 <img className="" 
                             src="https://media4.giphy.com/media/XhNWPTmb8zbFrmEQFT/giphy.gif"
                             alt=""
-                            width= {550} height= {500}
+                            width= {300} height= {300}
                             layout='intrinsic'
                             objectFit="cover"
                         />
