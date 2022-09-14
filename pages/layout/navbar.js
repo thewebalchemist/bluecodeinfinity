@@ -81,19 +81,6 @@ const Navbar = () => {
                                 </a>
                                 </Link>                       
                             </div>
-                            <hr className='w-full bg-blue-600' />
-                            <div className='hover:shadow-2xl py-2 subMenu'>
-                                <Link  href="/casestudies">
-                                <a className='hover:text-blue-400'>
-                                    <span className='block text-md font-bold tracking-wide py-2'>
-                                    Our Case Studies
-                                    </span>
-                                    <span className='block text-sm'>
-                                    Key strengths that our customers value the most
-                                    </span>
-                                </a>                                
-                                </Link>                        
-                            </div>
                                 <hr className='w-full bg-blue-600' />
                             </div>
                             </div>
@@ -190,19 +177,6 @@ const Navbar = () => {
                                 </span>
                                 <span className='block text-sm'>
                                 We build tech teams and transform industries by creating scalable and meaningful software products
-                                </span>
-                            </a>
-                            </Link>                        
-                        </div>
-
-                        <div className='navGrid border border-gray-400 rounded p-3'>
-                            <Link  href="/casestudies">
-                            <a className='hover:text-blue-400'>
-                                <span className='block text-xl font-bold tracking-wide py-2'>
-                                Our Case Studies
-                                </span>
-                                <span className='block text-sm'>
-                                Learn about the value we bring to businesses
                                 </span>
                             </a>
                             </Link>                        

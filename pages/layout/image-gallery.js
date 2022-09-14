@@ -38,7 +38,7 @@ const ImageGallery = () => {
 
             <div className='grid lg:grid-cols-2 gap-5 py-5 lg:px-20'>
                 <div className=''>
-                                        <Image 
+                                        <img
                                         className='' 
                                         src="/images/landingpages/5.png"
                                         alt=""
@@ -49,7 +49,7 @@ const ImageGallery = () => {
                                         />
                                 </div>
                                 <div className=''>
-                                        <Image 
+                                        <img 
                                         className='' 
                                         src="/images/landingpages/3.png"
                                         alt=""
@@ -60,7 +60,7 @@ const ImageGallery = () => {
                                         />
                                 </div>
                                 <div className=''>
-                                        <Image 
+                                        <img  
                                         className='' 
                                         src="/images/landingpages/2.png"
                                         alt=""
@@ -71,7 +71,7 @@ const ImageGallery = () => {
                                         />
                                 </div>
                                 <div className=''>
-                                        <Image 
+                                        <img  
                                         className='' 
                                         src="/images/landingpages/4.png"
                                         alt=""
@@ -82,12 +82,17 @@ const ImageGallery = () => {
                                         />
                                 </div>
                 </div>
-        
-                <div className="grid md:grid-cols-3 gap-4 overflow-auto will-change py-5">
+
+                <div className='md:py-10'>
+        <h3 className='text-white text-start font-bold tracking-widest text-2xl md:text-5xl capitalize'>
+            Design that speaks for you
+        </h3>
+    </div>
+    <div className="grid md:grid-cols-3 gap-4 overflow-auto will-change py-2 p-2">
         <div className="grid md:grid-rows-2 md:grid-flow-row gap-4">
             <div className="md:col-span-1">
-            <Image className="rounded-md transition duration:300 hover:scale-110 hover:transition hover:duration-300" 
-                src="/images/graphics/3.png" 
+            <img className="rounded-md transition duration:300 hover:scale-105 hover:transition hover:duration-300" 
+                src="/images/flyer/12.png" 
                 alt=""
                 width={2400} height= {2400}
                 layout='intrinsic'
@@ -95,8 +100,8 @@ const ImageGallery = () => {
                 />
             </div>
             <div className="md:col-span-1">
-            <Image className="rounded-md transition duration:300 hover:scale-110 hover:transition hover:duration-300" 
-                src="/images/flyer/9.png" 
+            <img  className="rounded-md transition duration:300 hover:scale-105 hover:transition hover:duration-300" 
+                src="/images/flyer/11.png" 
                 alt=""
                 width={2400} height= {2400}
                 layout='intrinsic'
@@ -105,10 +110,10 @@ const ImageGallery = () => {
             </div>
         </div>
 
-        <div className="grid md:grid-rows-2 md:grid-flow-row gap-4">
-            <div className="row-span-3 col-span-2">
-            <Image className="rounded-md transition duration:300 hover:scale-110 hover:transition hover:duration-300" 
-                src="/images/graphics/10.png"  
+        <div className="grid md:grid-rows-3 md:grid-flow-row gap-4">
+            <div className="row-span-2 col-span-2">
+            <img className="rounded-md transition duration:300 hover:scale-105 hover:transition hover:duration-300" 
+                src="/images/flyer/7.png"  
                 alt=""
                 width={2400} height= {2400}
                 layout='intrinsic'
@@ -118,7 +123,7 @@ const ImageGallery = () => {
             
             
             <div className="grid">
-            <Image className="rounded-md transition duration:300 hover:scale-110 hover:transition hover:duration-300" 
+            <img className="rounded-md transition duration:300 hover:scale-105 hover:transition hover:duration-300" 
                 src="/images/graphics/6.png"
                 alt=""
                 width={2400} height= {2400}
@@ -127,27 +132,8 @@ const ImageGallery = () => {
                 />
             </div>
             
-            
-            <div className="grid">
-            <Image className="rounded-md transition duration:300 hover:scale-110 hover:transition hover:duration-300" 
-                src="/images/graphics/7.png" 
-                alt=""
-                width={2400} height= {2400}
-                layout='intrinsic'
-                objectFit="cover"
-                />
-            </div>
             <div className="md:col-span-1">
-            <Image className="rounded-md transition duration:300 hover:scale-110 hover:transition hover:duration-300" 
-                src="/images/graphics/11.png"  
-                alt=""
-                width={2400} height= {2400}
-                layout='intrinsic'
-                objectFit="cover"
-                />
-            </div>
-            <div className="md:col-span-1">
-            <Image className="rounded-md transition duration:300 hover:scale-110 hover:transition hover:duration-300" 
+            <img  className="rounded-md transition duration:300 hover:scale-105 hover:transition hover:duration-300" 
                 src="/images/graphics/4.png" 
                 alt=""
                 width={2400} height= {2400}
@@ -160,8 +146,8 @@ const ImageGallery = () => {
         
         <div className="grid md:grid-rows-2 md:grid-flow-row gap-4">
             <div className="md:col-span-1">
-            <Image className="rounded-md transition duration:300 hover:scale-110 hover:transition hover:duration-300" 
-                src="/images/flyer/10.png" 
+            <img  className="rounded-md transition duration:300 hover:scale-105 hover:transition hover:duration-300" 
+                src="/images/flyer/4.png" 
                 alt=""
                 width={2400} height= {2400}
                 layout='intrinsic'
@@ -169,8 +155,8 @@ const ImageGallery = () => {
                 />
             </div>
             <div className="md:col-span-1">
-            <Image className="rounded-md transition duration:300 hover:scale-110 hover:transition hover:duration-300" 
-                src="/images/flyer/6.png" 
+            <img className="rounded-md transition duration:300 hover:scale-105 hover:transition hover:duration-300" 
+                src="/images/flyer/9.png" 
                 alt=""
                 width={2400} height= {2400}
                 layout='intrinsic'
@@ -179,6 +165,9 @@ const ImageGallery = () => {
             </div>
         </div>
             </div>
+
+
+
         </div>    
         
     );

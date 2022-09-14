@@ -13,7 +13,7 @@ const Hero = () => {
                     <h3 className='font-bold text-white text-5xl md:text-7xl'>
                     If You Can Imagine It, We Will <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-400'>Design</span> and <span className='text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-orange-400'>Develop</span> It
                     </h3>
-                    <p className='md:text-2xl text-sm tracking-widest'>
+                    <p className='md:text-2xl text-sm tracking-widest leading-10'>
                     All in one <span className="">design-driven</span> development agency
                     </p>
                 </div>

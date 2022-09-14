@@ -56,11 +56,11 @@ const TextSection = () => {
         </div>
         <div className='grid lg:grid-cols-2 gap-10 p-2 md:p-10 '>
             {/* For You */}
-            <div className='grid items-center'>
+            <div className='grid items-center justify-center'>
                 <h3 className='text-white text-3xl py-3 text-center'>
                     for you
                 </h3>
-                <Image className='rounded-2xl'
+                <img className='rounded-2xl'
                     alt="for your brand"
                     src="/images/for-you.gif"
                     width={500} height= {500}
@@ -70,11 +70,11 @@ const TextSection = () => {
 
             </div>
              {/* For You */}
-            <div className='grid items-center'>
+            <div className='grid items-center justify-center'>
                 <h3 className='text-white text-3xl py-3 text-center'>
                     for your brand
                 </h3>
-                <Image className='rounded-2xl'
+                <img className='rounded-2xl'
                     alt="for your brand"
                     src="/images/for-your-business.gif"
                     width={500} height= {500}
