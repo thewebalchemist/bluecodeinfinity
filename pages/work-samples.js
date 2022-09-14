@@ -18,7 +18,7 @@ const WorkSamples = () => {
                     What we usually do
                     </h2>
                     <p className='text-white text-center'>
-                    No matter the industry you're in, or the asset you need, we can design it for you.
+                    No matter the industry you're in, or the asset you need, we can design and develop it for you.
 
                     </p>
                     </div>
