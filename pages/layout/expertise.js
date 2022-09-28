@@ -11,9 +11,9 @@ const Expertise = ()  => {
 
             {/* on smaller devices starts */}
             <div className='px-2 lg:hidden'>
-                <h1 className="text-gray-200 text-3xl font-semibold tracking-widest">
+                <h2 className="text-gray-200 text-3xl font-semibold tracking-widest">
                 Our industries expertise
-                </h1>
+                </h2>
                 <div className='grid grid-cols-2 gap-2 py-5'>
                     <Link href="/expertise/healthcare">
                     <a>
@@ -21,9 +21,9 @@ const Expertise = ()  => {
                         <span className='text-white text-2xl font-bold tracking-widest'>
                             01
                         </span>
-                        <h1 className='text-white text-lg font-semibold'>
+                        <h2 className='text-white text-lg font-semibold'>
                             Healthcare
-                        </h1>
+                        </h2>
                     </div>
                     </a>
                     </Link>
@@ -34,9 +34,9 @@ const Expertise = ()  => {
                         <span className='text-white text-2xl font-bold tracking-widest'>
                             02
                         </span>
-                        <h1 className='text-white text-lg font-semibold'>
+                        <h2 className='text-white text-lg font-semibold'>
                             Education
-                        </h1>
+                        </h2>
                     </div>
                     </a>
                     </Link>
@@ -46,9 +46,9 @@ const Expertise = ()  => {
                         <span className='text-white text-2xl font-bold tracking-widest'>
                             03
                         </span>
-                        <h1 className='text-white text-lg font-semibold'>
+                        <h2 className='text-white text-lg font-semibold'>
                             Logistics
-                        </h1>
+                        </h2>
                     </div>
                     </a>
                     </Link>
@@ -58,9 +58,9 @@ const Expertise = ()  => {
                         <span className='text-white text-2xl font-bold tracking-widest'>
                             04
                         </span>
-                        <h1 className='text-white text-lg font-semibold'>
+                        <h2 className='text-white text-lg font-semibold'>
                             Marketplace
-                        </h1>
+                        </h2>
                     </div>
                     </a>
                     </Link>
@@ -70,9 +70,9 @@ const Expertise = ()  => {
                         <span className='text-white text-2xl font-bold tracking-widest'>
                             05
                         </span>
-                        <h1 className='text-white text-lg font-semibold'>
+                        <h2 className='text-white text-lg font-semibold'>
                             Media
-                        </h1>
+                        </h2>
                     </div>
                     </a>
                     </Link>
@@ -82,9 +82,9 @@ const Expertise = ()  => {
                         <span className='text-white text-2xl font-bold tracking-widest'>
                             06
                         </span>
-                        <h1 className='text-white text-lg font-semibold'>
+                        <h2 className='text-white text-lg font-semibold'>
                             Retail
-                        </h1>
+                        </h2>
                     </div>
                     </a>
                     </Link>
@@ -94,9 +94,9 @@ const Expertise = ()  => {
                         <span className='text-white text-2xl font-bold tracking-widest'>
                             07
                         </span>
-                        <h1 className='text-white text-lg font-semibold'>
+                        <h2 className='text-white text-lg font-semibold'>
                             Fintech
-                        </h1>
+                        </h2>
                     </div>
                     </a>
                     </Link>
@@ -106,9 +106,9 @@ const Expertise = ()  => {
                         <span className='text-white text-2xl font-bold tracking-widest'>
                             08
                         </span>
-                        <h1 className='text-white text-lg font-semibold'>
+                        <h2 className='text-white text-lg font-semibold'>
                             Travel
-                        </h1>
+                        </h2>
                     </div>
                     </a>
                     </Link>
@@ -181,19 +181,9 @@ const Expertise = ()  => {
                         layout="intrinsic"
                         objectFit="cover" // Scale your image down to fit into the container
                     />
-                    <h1 className="text-blue-600 text-3xl ">
+                    <h1 className="text-gray-400 text-3xl">
                     Custom EHR, EMR, ERX, and other software solutions for Healthcare and Medicine
                     </h1>
-                    <p className="text-gray-200 ">
-                    We help established businesses such as hospitals, laboratories, and pharmacies, create turnkey products, and simplify digital transformation.
-                    </p>
-                    <Link href="/expertise/healthcare" >
-                        <a>
-                    <button className="text-blue-500 underline underline-offset-4 hover:no-underline hover:bg-opacity-10 hover:bg-blue-200 py-1 px-2 hover:text-pink-300 hover:rounded-full">
-                        Discover industry details
-                    </button>
-                    </a>
-                    </Link>
                     </div>
                 <div className={`${activeExpertise === 'education' ? "" : "hidden"}  col-span-2 flex flex-col justify-start items-start   space-y-8`}>
                     <Image
@@ -203,19 +193,11 @@ const Expertise = ()  => {
                         layout="intrinsic"
                         objectFit="cover" // Scale your image down to fit into the container
                     />
-                    <h1 className="text-blue-600 text-3xl ">
-                    Custom EHR, EMR, ERX, and other software solutions for Healthcare and Medicine
+                    <h1 className="text-gray-400 text-3xl">
+                    Education app development services provided by Blue Code Infinity
+                     empower learning experience for students, teachers, and administrations
+
                     </h1>
-                    <p className="text-gray-200 ">
-                    We help established businesses such as hospitals, laboratories, and pharmacies, create turnkey products, and simplify digital transformation.
-                    </p>
-                    <Link href="/expertise/education" >
-                        <a>
-                    <button className="text-blue-500 underline underline-offset-4 hover:no-underline hover:bg-opacity-10 hover:bg-blue-200 hover:text-pink-300 py-1 px-2 hover:rounded-full">
-                        Discover industry details
-                    </button>
-                    </a>
-                    </Link>
                 </div>
                 <div className={`${activeExpertise === 'logistics' ? "" : "hidden"}  col-span-2 flex flex-col justify-start items-start   space-y-8`}>
                     <Image
@@ -225,19 +207,10 @@ const Expertise = ()  => {
                         layout="intrinsic"
                         objectFit="cover" // Scale your image down to fit into the container
                     />
-                    <h1 className="text-blue-600 text-3xl ">
-                    Custom EHR, EMR, ERX, and other software solutions for Healthcare and Medicine
-                    </h1>
-                    <p className="text-gray-200 ">
-                    We help established businesses such as hospitals, laboratories, and pharmacies, create turnkey products, and simplify digital transformation.
-                    </p>
-                    <Link href="/expertise/logistics" >
-                        <a>
-                    <button className="text-blue-500 underline underline-offset-4 hover:no-underline hover:bg-opacity-10 hover:bg-blue-200 hover:text-pink-300 py-1 px-2 hover:rounded-full">
-                        Discover industry details
-                    </button>
-                    </a>
-                    </Link>
+                    <h2 className="text-gray-400 text-3xl">
+                    Logistics Software Development Services
+                     that we offer cover all sides of industry processes and boost business
+                    </h2>
                 </div>
                 <div className={`${activeExpertise === 'marketplace' ? "" : "hidden"}  col-span-2 flex flex-col justify-start items-start   space-y-8`}>
                     <Image
@@ -247,19 +220,10 @@ const Expertise = ()  => {
                         layout="intrinsic"
                         objectFit="cover" // Scale your image down to fit into the container
                     />
-                    <h1 className="text-blue-600 text-3xl ">
-                    Custom EHR, EMR, ERX, and other software solutions for Healthcare and Medicine
-                    </h1>
-                    <p className="text-gray-200 ">
-                    We help established businesses such as hospitals, laboratories, and pharmacies, create turnkey products, and simplify digital transformation.
-                    </p>
-                    <Link href="/expertise/marketplace" >
-                        <a>
-                    <button className="text-blue-500 underline underline-offset-4 hover:no-underline hover:bg-opacity-10 hover:bg-blue-200 hover:text-pink-300 py-1 px-2 hover:rounded-full">
-                        Discover industry details
-                    </button>
-                    </a>
-                    </Link>
+                    <h2 className="text-gray-400 text-3xl">
+                    We build a B2B, B2C, or C2C marketplace 
+                    considering your objectives and meeting user expectations to boost conversions.
+                    </h2>
                 </div>
                 <div className={`${activeExpertise === 'media' ? "" : "hidden"}  col-span-2 flex flex-col justify-start items-start   space-y-8`}>
                     <Image
@@ -269,19 +233,10 @@ const Expertise = ()  => {
                         layout="intrinsic"
                         objectFit="cover" // Scale your image down to fit into the container
                     />
-                    <h1 className="text-blue-600 text-3xl ">
-                    Custom EHR, EMR, ERX, and other software solutions for Healthcare and Medicine
-                    </h1>
-                    <p className="text-gray-200 ">
-                    We help established businesses such as hospitals, laboratories, and pharmacies, create turnkey products, and simplify digital transformation.
-                    </p>
-                    <Link href="/expertise/media" >
-                        <a>
-                    <button className="text-blue-500 underline underline-offset-4 hover:no-underline hover:bg-opacity-10 hover:bg-blue-200 hover:text-pink-300 py-1 px-2 hover:rounded-full">
-                        Discover industry details
-                    </button>
-                    </a>
-                    </Link>
+                    <h2 className="text-gray-400 text-3xl">
+                    Media and Entertainment software services and advanced tech solutions from Blue Code Infinity 
+                    enhance the product's competitiveness and help deliver a drastically new user experience
+                    </h2>
                 </div>
                 <div className={`${activeExpertise === 'retail' ? "" : "hidden"}  col-span-2 flex flex-col justify-start items-start   space-y-8`}>
                     <Image
@@ -291,19 +246,10 @@ const Expertise = ()  => {
                         layout="intrinsic"
                         objectFit="cover" // Scale your image down to fit into the container
                     />
-                    <h1 className="text-blue-600 text-3xl ">
-                    Custom EHR, EMR, ERX, and other software solutions for Healthcare and Medicine
-                    </h1>
-                    <p className="text-gray-200 ">
-                    We help established businesses such as hospitals, laboratories, and pharmacies, create turnkey products, and simplify digital transformation.
-                    </p>
-                    <Link href="/expertise/retail" >
-                        <a>
-                    <button className="text-blue-500 underline underline-offset-4 hover:no-underline hover:bg-opacity-10 hover:bg-blue-200 hover:text-pink-300 py-1 px-2 hover:rounded-full">
-                        Discover industry details
-                    </button>
-                    </a>
-                    </Link>
+                    <h2 className="text-gray-400 text-3xl">
+                    We create software solutions that improve 
+                    customer experience, expand client base and improve back-office operations.
+                    </h2>
                 </div>
                 <div className={`${activeExpertise === 'fintech' ? "" : "hidden"}  col-span-2 flex flex-col justify-start items-start   space-y-8`}>
                     <Image
@@ -313,19 +259,10 @@ const Expertise = ()  => {
                         layout="intrinsic"
                         objectFit="cover" // Scale your image down to fit into the container
                     />
-                    <h1 className="text-blue-600 text-3xl ">
-                    Custom EHR, EMR, ERX, and other software solutions for Healthcare and Medicine
-                    </h1>
-                    <p className="text-gray-200 ">
-                    We help established businesses such as hospitals, laboratories, and pharmacies, create turnkey products, and simplify digital transformation.
-                    </p>
-                    <Link href="/expertise/fintech" >
-                        <a>
-                    <button className="text-blue-500 underline underline-offset-4 hover:no-underline hover:bg-opacity-10 hover:bg-blue-200 hover:text-pink-300 py-1 px-2 hover:rounded-full">
-                        Discover industry details
-                    </button>
-                    </a>
-                    </Link>
+                    <h2 className="text-gray-400 text-3xl">
+                    Financial software development services that help automate processes, 
+                    improve transaction security, and put the latest FinTech technologies at the service of your business
+                    </h2>
                 </div>
                 <div className={`${activeExpertise === 'travel' ? "" : "hidden"}  col-span-2 flex flex-col justify-start items-start   space-y-8`}>
                     <Image
@@ -335,19 +272,10 @@ const Expertise = ()  => {
                         layout="intrinsic"
                         objectFit="cover" // Scale your image down to fit into the container
                     />
-                    <h1 className="text-blue-600 text-3xl ">
-                    Custom EHR, EMR, ERX, and other software solutions for Healthcare and Medicine
-                    </h1>
-                    <p className="text-gray-200 ">
-                    We help established businesses such as hospitals, laboratories, and pharmacies, create turnkey products, and simplify digital transformation.
-                    </p>
-                    <Link href="/expertise/travel" >
-                        <a>
-                    <button className="text-blue-500 underline underline-offset-4 hover:no-underline hover:bg-opacity-10 hover:bg-blue-200 hover:text-pink-300 py-1 px-2 hover:rounded-full">
-                        Discover industry details
-                    </button>
-                    </a>
-                    </Link>
+                    <h2 className="text-gray-400 text-3xl">
+                    We're a travel app development company
+                     delivering top-notch solutions for startups and established travel companies.
+                    </h2>
                 </div>
 
             </div>

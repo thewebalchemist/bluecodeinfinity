@@ -15,7 +15,6 @@ const OurServices = ({posts}) => {
                         <meta name="description" content="We offer outstanding software engineering expertise coupled with seasoned product management and user interface / experience designers" />
                         <link rel="icon" href="/favicon.ico" />
                         <script src="https://cdn.tailwindcss.com"></script>
-                        <script src="//code.jivosite.com/widget/U2A0sPgoOC" async></script>
                         
                     </Head>
 

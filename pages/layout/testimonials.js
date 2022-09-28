@@ -231,7 +231,7 @@ const Testimonials = () => {
             </Splide>
 
         {/* Trusted By teams' */}
-        <div className='bg-black py-5 md:py-10 w-full items-center'>
+        {/* <div className='bg-black py-5 md:py-10 w-full items-center'>
             <div className='grid grid-cols-3 lg:grid-cols-5 space-y-5 gap-0 items-center'>
             <div className="flex justify-center items-center">
             <Image 
@@ -290,7 +290,7 @@ const Testimonials = () => {
             </div>
 
             </div>
-        </div>
+        </div> */}
         </div>
     )
 }

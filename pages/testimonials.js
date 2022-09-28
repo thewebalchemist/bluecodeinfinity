@@ -12,8 +12,7 @@ const TestimonialsPage = ({posts}) => {
                     <title>Testimonials</title>
                     <meta name="description" content="Testimonials" />
                     <link rel="icon" href="/favicon.ico" />
-                    <script src="https://cdn.tailwindcss.com"></script>
-                    <script src="//code.jivosite.com/widget/U2A0sPgoOC" async></script>                    
+                    <script src="https://cdn.tailwindcss.com"></script>                  
                 </Head>
 
         <div className="">

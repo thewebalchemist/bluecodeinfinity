@@ -33,9 +33,9 @@ const Home = () => {
         <link rel="manifest" href="/favicon//site.webmanifest" />
         <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5" />
         <script src="https://cdn.tailwindcss.com"></script>
-        <script src="//code.jivosite.com/widget/U2A0sPgoOC" async></script>
         <link href="//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold" rel="stylesheet" type="text/css"/>
       </Head>
+      
 
       {/* hero section starts */}
       <Hero />

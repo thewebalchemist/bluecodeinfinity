@@ -13,7 +13,6 @@ export default function CaseStudies ({caseStudies}) {
                     <meta name="description" content="Learn about the value we bring to businesses" />
                     <link rel="icon" href="/favicon.ico" />
                     <script src="https://cdn.tailwindcss.com"></script>
-                    <script src="//code.jivosite.com/widget/U2A0sPgoOC" async></script>
                     
                 </Head>
         <div>

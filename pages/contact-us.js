@@ -53,7 +53,6 @@ const Contactus = () => {
             <meta name="description" content="We create scalable and meaningful hi-tech solution for your business" />
             <link rel="icon" href="/favicon.ico" />
             <script src="https://cdn.tailwindcss.com"></script>
-            <script src="//code.jivosite.com/widget/U2A0sPgoOC" async></script>
             
         </Head>
 

@@ -16,7 +16,6 @@ const AboutUs = ({posts}) => {
                     <meta name="description" content="We build tech teams and transform industries by creating scalable and meaningful software products" />
                     <link rel="icon" href="/favicon.ico" />
                     <script src="https://cdn.tailwindcss.com"></script>
-                    <script src="//code.jivosite.com/widget/U2A0sPgoOC" async></script>
                     
                 </Head>
 

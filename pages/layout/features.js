@@ -20,7 +20,8 @@ const Features = () => {
                             <IoCheckmarkSharp />
                         </span>
                         <p className="text-gray-200 text-sm md:text-md">
-                        Startup founders and SME owners with great ideas and want a great online presence for the services they offer.
+                        Startup founders and SME owners with great
+                         ideas and want a great online presence for the services they offer.
                         </p>
                     </div>
                 </div>
@@ -31,7 +32,9 @@ const Features = () => {
                             <IoCheckmarkSharp />
                         </span>
                         <p className="text-gray-200 text-sm md:text-md">
-                        Enterpreneurs that have an existing audience that you serve and that trusts you. You don't have to know exactly what kind of content you will be providing them. We can that together.
+                        People who are prepared to make serious time and money investments. 
+                        Making things great takes time and money.
+                         If this is you, we are happy to join you on this journey.
                         </p>
                     </div>
                 </div>
@@ -42,7 +45,8 @@ const Features = () => {
                             <IoCheckmarkSharp />
                         </span>
                         <p className="text-gray-200 text-sm md:text-md">
-                        People who are prepared to make serious time and money investment. In order to make things great, it takes time and money. If this you, we are happy to join you on this journey
+                        You are an existing site owner that wants to build and grow your website. 
+                        If you want to add new features or do a website overhaul, you have come to the right place.
                         </p>
                     </div>
                 </div>
@@ -53,7 +57,11 @@ const Features = () => {
                             <IoCheckmarkSharp />
                         </span>
                         <p className="text-gray-200 text-sm md:text-md">
-                        Existing membership site owners that want to build and grow their website. If you want to add new featurws or do a website overhaul, you have come to the right place.
+                        Entrepreneurs that have an existing audience that 
+                        they serve and that trusts them. 
+                        You don't have to know what kind of online content you will provide them. We can do that together.
+
+
                         </p>
                     </div>
                 </div>
@@ -64,7 +72,7 @@ const Features = () => {
                             <IoCheckmarkSharp />
                         </span>
                         <p className="text-gray-200 text-sm md:text-md">
-                        People who are highly committed. If you're dedicated to making this work - We are happy to work with you on your project together.
+                        People who are highly committed. If you're dedicated to making this work - We are happy to work with you on your project.
                         </p>
                     </div>
                 </div>

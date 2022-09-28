@@ -20,8 +20,7 @@ const WhoWeAre = ({posts}) => {
                     <title>Who We Are - We believe in long-term, mutually-beneficial partnerships between ourselves and our clients. In order to achieve this, we offer individual, flexible models of cooperation that include, in most cases, agile implementation methods.</title>
                     <meta name="description" content="We believe in long-term, mutually-beneficial partnerships between ourselves and our clients. In order to achieve this, we offer individual, flexible models of cooperation that include, in most cases, agile implementation methods." />
                     <link rel="icon" href="/favicon.ico" />
-                    <script src="https://cdn.tailwindcss.com"></script>
-                    <script src="//code.jivosite.com/widget/U2A0sPgoOC" async></script>                    
+                    <script src="https://cdn.tailwindcss.com"></script>                   
                 </Head>
 
                 {/* Top banner */}
